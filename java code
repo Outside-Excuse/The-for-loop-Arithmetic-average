@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in);
+        
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+      
+       double total = 0;
+       double suma = 0;
+       double numuno = num1;
+       double resultado = 0; 
+double llegada = num2 +=1;
+        for (; numuno != llegada; numuno++ ){
+            
+            if((num1 % 3) == 0){
+      total = total += 1;
+     suma = suma + num1;
+     num1 = num1 +=1;       
+
+    
+            }
+            else {
+                num1 = num1 +=1;
+
+            }
+            
+        }
+        resultado = (suma/total);
+        
+        System.out.println(resultado);
+        // put your code here
+    }
+}
